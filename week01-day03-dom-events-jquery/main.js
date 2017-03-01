@@ -28,3 +28,13 @@ newListItem.setAttribute('class', 'muted');
 var listContainer = document.getElementById('item-list');
 
 listContainer.appendChild(newListItem);
+
+console.log('-----DOM events');
+var pickMeButton = document.getElementById('pickMeBtn');
+
+function handleButtonClick(){
+  // alert('clicked');
+  document.getElementById('pickMeBtn').innerHTML = 'clicked';
+}
+
+pickMeButton.addEventListener('click', handleButtonClick);
