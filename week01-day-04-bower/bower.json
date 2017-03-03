@@ -1,0 +1,14 @@
+{
+  "name": "week01-day-04-bower",
+  "homepage": "https://github.com/SalTheSpartan/sg-notes",
+  "authors": [
+    "Salman Khan <skhan@spartaglobal.co>"
+  ],
+  "description": "seing how bower works",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}
